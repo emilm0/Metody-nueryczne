@@ -6,7 +6,7 @@ class Aproksymacja extends Metoda {
 
 
     void aproksymuj(){
-        // aproksymacja liniowa
+        
         System.out.println("Aproksymacja liniowa do postaci y=ax+b");
         double sum_x = 0, sum_y = 0, sum_xy = 0, sum_x2 = 0, a = 0, b;
 
