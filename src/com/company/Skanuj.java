@@ -1,12 +1,11 @@
 package com.company;
 
 import java.util.Scanner;
-import java.util.regex.Pattern;
 
-public class Skanuj {
-    Scanner scanner = new Scanner(System.in);
+class Skanuj {
+    private Scanner scanner = new Scanner(System.in);
 
-    public double skanujDouble(){
+    double skanujDouble(){
 
         boolean dalej = true;
         double s= 1;
@@ -24,7 +23,7 @@ public class Skanuj {
         return s;
     }
 
-    public int skanujInt(int a, int b){
+    int skanujInt(int a, int b){
         boolean dalej = true;
         int s= 12;
         while(dalej) {

@@ -10,7 +10,6 @@ class Interpolacja extends Metoda {
         System.out.println("Dla jakiego punktu obliczyc wartosc?");
         x =skan.skanujDouble();
 
-            // Algorytm
             w1 = 1;
             for (j = 0; j < n; j++){
                 w1 *= (x - X[j]);
@@ -25,6 +24,6 @@ class Interpolacja extends Metoda {
             }
             y = w1 *s;
 
-           System.out.println("Wartosc wielomianu w punkcie "+ round(x) + " = " + round(y) +".");
+           System.out.println("Wartosc wielomianu w punkcie "+ round(x) + " wynosi " + round(y) +".");
     }
 }

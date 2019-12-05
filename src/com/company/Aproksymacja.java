@@ -3,8 +3,6 @@ package com.company;
 
 class Aproksymacja extends Metoda {
 
-
-
     void aproksymuj(){
         
         System.out.println("Aproksymacja liniowa do postaci y=ax+b");
@@ -24,5 +22,4 @@ class Aproksymacja extends Metoda {
 
         System.out.println("Rownanie ma postac: y = "+ a + "x + " + b);
     }
-
 }

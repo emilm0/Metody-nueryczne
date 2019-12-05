@@ -2,7 +2,7 @@ package com.company;
 
 public class Main {
 
-    static Skanuj skan1 = new Skanuj();
+    private static Skanuj skan1 = new Skanuj();
 
     public static void main(String[] args) {
 
@@ -32,8 +32,12 @@ public class Main {
                 m = wybierz();
 
             } else if (m == 3) {
-                System.out.println("Wybrałes równania liniowe");
+                System.out.println("Wybrałes całkowanie");
+
+                Calkowanie calkowanie = new Calkowanie();
+                calkowanie.calkuj();
                 m = wybierz();
+
             } else {
                 System.out.println("Podanłeś nieprawidłową wartość. Wybierz liczbę 1, 2, 3 lub 0.");
                 m = wybierz();
@@ -48,7 +52,7 @@ public class Main {
         System.out.println("Wybierz metode: ");
         System.out.println("[1] Interpolacja ");
         System.out.println("[2] Aproksymacj ");
-        System.out.println("[3] Rozwiązywanie równań ");
+        System.out.println("[3] Całkownie ");
         System.out.println("[0] Wyjdź ");
 
         return skan1.skanujInt(0,3);
